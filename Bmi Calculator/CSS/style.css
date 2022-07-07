@@ -1,0 +1,45 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+body{
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.0;
+}
+
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+
+.BMIHead{
+    background-color: #2756ba;
+    color: #fff;
+}
+
+button{
+    display: block;
+    margin-top: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px 200px;
+}
+
